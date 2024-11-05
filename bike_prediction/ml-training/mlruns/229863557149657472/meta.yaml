@@ -1,0 +1,6 @@
+artifact_location: file:///home/samuel/dtacs/bike_prediction/ml-training/mlruns/229863557149657472
+creation_time: 1729797980920
+experiment_id: '229863557149657472'
+last_update_time: 1729797980920
+lifecycle_stage: active
+name: bike_prediction

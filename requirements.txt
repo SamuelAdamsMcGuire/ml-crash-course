@@ -1,0 +1,9 @@
+notebook
+pandas
+numpy
+seaborn 
+matplotlib
+scikit-learn
+mlflow
+boto3
+kubernetes

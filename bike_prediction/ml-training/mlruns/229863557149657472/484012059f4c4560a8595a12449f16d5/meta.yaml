@@ -1,0 +1,15 @@
+artifact_uri: file:///home/samuel/dtacs/bike_prediction/ml-training/mlruns/229863557149657472/484012059f4c4560a8595a12449f16d5/artifacts
+end_time: 1729798969315
+entry_point_name: ''
+experiment_id: '229863557149657472'
+lifecycle_stage: active
+run_id: 484012059f4c4560a8595a12449f16d5
+run_name: dashing-fowl-679
+run_uuid: 484012059f4c4560a8595a12449f16d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729798932086
+status: 4
+tags: []
+user_id: samuel

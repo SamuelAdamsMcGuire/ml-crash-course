@@ -1,0 +1,5 @@
+{
+    "repository-uri": "samuelminnelli/mlrunner:latest",
+    "kube-job-template-path": "k8s_job_template.yaml",
+    "kube-context": "dtacs"
+  }

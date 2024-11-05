@@ -1,0 +1,15 @@
+artifact_uri: file:///home/samuel/dtacs/bike_prediction/ml-training/mlruns/229863557149657472/e59b6a2118234756a7a6c74e6437ffb4/artifacts
+end_time: 1729798705564
+entry_point_name: ''
+experiment_id: '229863557149657472'
+lifecycle_stage: active
+run_id: e59b6a2118234756a7a6c74e6437ffb4
+run_name: stately-kite-488
+run_uuid: e59b6a2118234756a7a6c74e6437ffb4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729798675438
+status: 4
+tags: []
+user_id: samuel

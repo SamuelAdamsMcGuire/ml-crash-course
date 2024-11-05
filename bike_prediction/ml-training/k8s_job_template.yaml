@@ -1,0 +1,21 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: training
+  namespace: mlflow
+spec:
+  ttlSecondsAfterFinished: 100
+  backoffLimit: 0
+  template:
+    spec:
+      containers:
+      - name: training
+        imagePullPolicy: Always
+        image: samuelminnelli/mlrunner:latest  
+        command: ['python', 'main.py']
+        resources:
+          limits:
+            memory: 2Gi
+          requests:
+            memory: 1Gi
+      restartPolicy: Never

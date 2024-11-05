@@ -1,0 +1,15 @@
+artifact_uri: file:///home/samuel/dtacs/bike_prediction/ml-training/mlruns/229863557149657472/498f40d7b8bc4f0fbe3da015f5691ffb/artifacts
+end_time: 1729798441677
+entry_point_name: ''
+experiment_id: '229863557149657472'
+lifecycle_stage: active
+run_id: 498f40d7b8bc4f0fbe3da015f5691ffb
+run_name: dashing-crane-443
+run_uuid: 498f40d7b8bc4f0fbe3da015f5691ffb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729798410234
+status: 4
+tags: []
+user_id: samuel

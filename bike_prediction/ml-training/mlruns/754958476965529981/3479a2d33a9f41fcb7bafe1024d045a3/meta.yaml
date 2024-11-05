@@ -1,0 +1,15 @@
+artifact_uri: file:///home/samuel/dtacs/bike_prediction/ml-training/mlruns/754958476965529981/3479a2d33a9f41fcb7bafe1024d045a3/artifacts
+end_time: 1729799939877
+entry_point_name: ''
+experiment_id: '754958476965529981'
+lifecycle_stage: active
+run_id: 3479a2d33a9f41fcb7bafe1024d045a3
+run_name: abundant-dog-244
+run_uuid: 3479a2d33a9f41fcb7bafe1024d045a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729799906488
+status: 4
+tags: []
+user_id: samuel

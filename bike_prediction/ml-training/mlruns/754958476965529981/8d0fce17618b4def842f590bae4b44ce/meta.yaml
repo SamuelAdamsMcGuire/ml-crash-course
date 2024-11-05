@@ -1,0 +1,15 @@
+artifact_uri: file:///home/samuel/dtacs/bike_prediction/ml-training/mlruns/754958476965529981/8d0fce17618b4def842f590bae4b44ce/artifacts
+end_time: 1729799237701
+entry_point_name: ''
+experiment_id: '754958476965529981'
+lifecycle_stage: active
+run_id: 8d0fce17618b4def842f590bae4b44ce
+run_name: brawny-foal-368
+run_uuid: 8d0fce17618b4def842f590bae4b44ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729799204362
+status: 4
+tags: []
+user_id: samuel

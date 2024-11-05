@@ -1,0 +1,15 @@
+artifact_uri: file:///home/samuel/dtacs/bike_prediction/ml-training/mlruns/229863557149657472/02245e476ac9497997758835758fdea3/artifacts
+end_time: 1729798019602
+entry_point_name: ''
+experiment_id: '229863557149657472'
+lifecycle_stage: active
+run_id: 02245e476ac9497997758835758fdea3
+run_name: handsome-whale-975
+run_uuid: 02245e476ac9497997758835758fdea3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729797981023
+status: 4
+tags: []
+user_id: samuel

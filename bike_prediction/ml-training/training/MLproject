@@ -1,0 +1,7 @@
+name: training
+
+docker_env: 
+  image: samuelminnelli/mlrunner:latest   # container.datatactics.services/mlflow/fuel-training # reached backoff limit: docker.io/datatactics/mlrunner:8c73108
+entry_points:
+  main:
+    command: "python main.py"
