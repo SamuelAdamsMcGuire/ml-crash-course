@@ -5,6 +5,7 @@
 3. When to use which model
 4. What is the ML lifecycle?
 5. Examples
+6. MLFlow
 
 ### High level model creation flow chart
 
