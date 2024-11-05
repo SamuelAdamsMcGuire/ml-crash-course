@@ -8,21 +8,24 @@
 
 ### High level model creation flow chart
 
-- There are many more details but this is a good workflow to follow:
-
 ```mermaid
-flowchart TD
-    id1[/Get Data/] --> id2[Preprocessing on all data e.g. change strings to integers]
-    id2 --> id3[/Train Test split/]
-    id3 --> id4[Perform feature engineering on training data only! fe.fit & fe.transform]
-    id4 --> id5[/Define model and fit on training data only! m.fit/]
-    id5 --> id6[Transform test data using fit feature engineering instance. Only fe.transform]
-    id6 --> id7[/Make train and test predictions/]
-    id7 --> id8[Use applicable metrics to score the model]
-    id8 --tweak & repeat --> id4 
+ flowchart TD
+    id1[/Define Goal X,y $$$/] --> id2[Get Data]
+    id2 --> id3[/Clean and make data tabular/]
+    id3 --> id4[Train - Test split]
+    id4 --> id13[Training data]
+    id13 --> id5[/EDA  Exploratory Data Analysis/]
+    id5 --> id6[Feature Engineering]
+    id6 --> id7[/Train model on training data only/]
+    id7 --> id8[Hyperparameter Optimization]
+    id8 --> id9(Evaluate model using test data)
+    id9 --> id10{Deploy and Monitor}
+    id10 --> id15(Learn and Improve)
+    id15 --> id1
+    id4 --> id12[test data]
+    id12 --> id14[transform based on training data]
+    id14 --> id9
 ```
-
-### With production and live models:
 
 
 ![ml_workflow](./images/mlworkflow.png)
